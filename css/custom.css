@@ -1,0 +1,28 @@
+a {
+	text-decoration: none;
+	color: #61ad19;
+}
+a:hover{
+	color: #aa1849;
+}
+
+.container {
+	margin-top: 15%;
+}
+
+.name {
+	border: 5px solid;
+    padding: 20px;   
+}
+
+.profile-picture {
+	border: 1px solid #5a5859;
+	width: 100%;
+}
+
+@media (min-width: 550px){
+	.name {
+		display: inline-block;
+		padding-right: 30px;
+	}
+}
